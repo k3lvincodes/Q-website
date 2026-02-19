@@ -33,7 +33,7 @@ export default function Dashboard() {
 
                     <div className="flex flex-col gap-6 justify-center max-w-sm mx-auto mb-10 lg:mb-12 w-full px-4">
                         <button
-                            onClick={() => window.location.href = "https://expo.dev/artifacts/eas/qbz9Eai1qMdKNr78hqoexR.apk"}
+                            onClick={() => window.location.href = "https://expo.dev/artifacts/eas/mw2zsx83Ckp8yRHeeVt1gf.apk"}
                             className="bg-black text-white px-6 py-4 lg:px-8 lg:py-5 rounded-2xl font-black text-base lg:text-lg flex items-center justify-center gap-2 lg:gap-3 hover:bg-gray-900 hover:scale-105 transition-all shadow-lg hover:shadow-xl group w-full whitespace-nowrap"
                         >
                             <span className="text-xl lg:text-2xl group-hover:animate-bounce">🤖</span>

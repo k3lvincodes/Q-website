@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function DownloadApp() {
     const [isModalOpen, setIsModalOpen] = useState(false);
-    const downloadUrl = "https://expo.dev/artifacts/eas/qbz9Eai1qMdKNr78hqoexR.apk";
+    const downloadUrl = "https://expo.dev/artifacts/eas/mw2zsx83Ckp8yRHeeVt1gf.apk";
 
     const handleDownloadClick = (e: React.MouseEvent) => {
         e.preventDefault();
