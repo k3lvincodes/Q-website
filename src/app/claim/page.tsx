@@ -271,8 +271,8 @@ function ClaimContent() {
                 onShowToast={showToast}
             />
 
-            <main className="lg:px-30 px-10 pt-32 pb-20 min-h-[80vh] flex flex-col items-center justify-start text-center relative overflow-hidden">
-                <div className="w-full max-w-2xl mx-auto relative overflow-hidden">
+            <main className="lg:px-30 px-4 pt-32 pb-28 min-h-[80vh] flex flex-col items-center justify-start text-center relative overflow-x-hidden">
+                <div className="w-full max-w-2xl mx-auto relative overflow-x-hidden">
                     <div
                         className="flex transition-transform duration-500 ease-in-out w-[400%]"
                         style={{ transform: `translateX(-${(currentStep - 1) * 25}%)` }}
@@ -374,10 +374,8 @@ function ClaimContent() {
                                 >
                                     {isLoading ? (
                                         <div className="w-6 h-6 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
-                                    ) : hasAccount ? (
-                                        "Verify & Continue"
                                     ) : (
-                                        "Create & Verify"
+                                        "Continue"
                                     )}
                                 </button>
                             </div>

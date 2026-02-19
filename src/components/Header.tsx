@@ -22,7 +22,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className="flex justify-between overflow-x-hidden lg:px-30 items-center h-30">
+    <header className="flex justify-between overflow-x-hidden lg:px-30 items-center h-30 relative z-40">
       <a href="/" className="flex items-center gap-5 lg:pl-0 pl-10 hover:opacity-80 transition-opacity">
         <Image
           alt="logo"

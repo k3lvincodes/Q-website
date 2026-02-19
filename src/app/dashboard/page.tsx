@@ -17,8 +17,8 @@ export default function Dashboard() {
     return (
         <div className="absolute w-full overflow-x-hidden bg-gray-50 min-h-screen flex flex-col">
             <Header />
-            <main className="flex-grow flex flex-col items-center justify-center text-center px-4 pt-40 pb-20">
-                <div className="bg-white p-12 rounded-[2.5rem] shadow-2xl max-w-3xl w-full animate-fade-in-up border border-gray-100/50 backdrop-blur-sm">
+            <main className="flex-grow flex flex-col items-center justify-center text-center px-4 pt-32 lg:pt-40 pb-28">
+                <div className="bg-white p-6 lg:p-12 rounded-[2rem] lg:rounded-[2.5rem] shadow-2xl max-w-3xl w-full animate-fade-in-up border border-gray-100/50 backdrop-blur-sm">
                     <div className="bg-orange-50 w-20 h-20 lg:w-24 lg:h-24 rounded-full flex items-center justify-center mx-auto mb-6 lg:mb-8 animate-bounce-slow">
                         <span className="text-4xl lg:text-5xl">🎁</span>
                     </div>
